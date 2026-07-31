@@ -12,11 +12,24 @@ Our work starts from the actual constraints: the data, the machine, the
 failure modes, and what can be measured. We publish concrete artifacts rather
 than speculative capability claims.
 
-## First public release
+## Public work
 
-[`yy-corpus-evidence`](https://github.com/yycore/yy-corpus-evidence) creates
-deterministic, local corpus manifests, records optional provenance
-declarations, and checks the result for drift later.
+[`AgentSafe`](https://www.yycore.ai/projects/agentsafe) is a paid, local Python
+tool for producing deterministic approval-to-execution evidence for OpenAI
+Agents SDK 0.19.x `FunctionTool` workflows. Its founding release checks six
+specific invariants and publishes an inspectable sample report before purchase.
+
+- [Product and measured scope](https://www.yycore.ai/projects/agentsafe)
+- [Inspectable sample report](https://www.yycore.ai/examples/agentsafe/report-0.0.1-rc3.json)
+- Founding license: $49 once, one organization, internal use, all 0.x updates
+
+AgentSafe is not a security audit or certification. Dynamic approval callbacks
+and other tool types are outside the founding release's measured scope.
+
+[`yy-corpus-evidence`](https://github.com/yycore/yy-corpus-evidence) is YY's
+first open-source release. It creates deterministic, local corpus manifests,
+records optional provenance declarations, and checks the result for drift
+later.
 
 ```text
 python -m pip install yy-corpus-evidence
