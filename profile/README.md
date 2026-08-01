@@ -14,13 +14,27 @@ than speculative capability claims.
 
 ## Public work
 
+[`YY Dataset Preflight`](https://www.yycore.ai/projects/dataset-preflight) is a
+paid, local Python tool that turns a dataset directory into a deterministic
+review packet: canonical JSON, standalone HTML, and a SHA-256 manifest. It
+surfaces exact and narrowly normalized duplicates, optional provenance
+coverage, conservative secret-risk signals, and explicit CI thresholds without
+uploading the dataset or making runtime network requests.
+
+- [Product and exact scope](https://www.yycore.ai/projects/dataset-preflight)
+- [Buy the $39 founding release](https://buy.polar.sh/polar_cl_l75PUPW2ts31TKEugQix0Rcjw8faLyc5ATewD4BsXpE)
+- One organization, internal use, all 0.x updates
+
+Dataset Preflight is not a security scanner, audit, certification, legal
+clearance, or training-readiness verdict.
+
 [`AgentSafe`](https://www.yycore.ai/projects/agentsafe) is a paid, local Python
 tool for producing deterministic approval-to-execution evidence for OpenAI
 Agents SDK 0.19.x `FunctionTool` workflows. Its founding release checks six
 specific invariants and publishes an inspectable sample report before purchase.
 
 - [Product and measured scope](https://www.yycore.ai/projects/agentsafe)
-- [Inspectable sample report](https://www.yycore.ai/examples/agentsafe/report-0.0.1-rc3.json)
+- [Inspectable sample report](https://www.yycore.ai/examples/agentsafe/report-0.0.1-rc7.json)
 - Founding license: $49 once, one organization, internal use, all 0.x updates
 
 AgentSafe is not a security audit or certification. Dynamic approval callbacks
