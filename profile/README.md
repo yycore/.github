@@ -22,6 +22,7 @@ coverage, conservative secret-risk signals, and explicit CI thresholds without
 uploading the dataset or making runtime network requests.
 
 - [Product and exact scope](https://www.yycore.ai/projects/dataset-preflight)
+- [Inspectable sample report](https://www.yycore.ai/examples/dataset-preflight/0.1.0/report.html)
 - [Buy the $39 founding release](https://buy.polar.sh/polar_cl_l75PUPW2ts31TKEugQix0Rcjw8faLyc5ATewD4BsXpE)
 - One organization, internal use, all 0.x updates
 
