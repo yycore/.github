@@ -23,6 +23,7 @@ uploading the dataset or making runtime network requests.
 
 - [Product and exact scope](https://www.yycore.ai/projects/dataset-preflight)
 - [Inspectable sample report](https://www.yycore.ai/examples/dataset-preflight/0.1.0/report.html)
+- [Engineering note: inspect a training dataset before upload](https://www.yycore.ai/notes/inspect-a-training-dataset-before-upload)
 - [Buy the $39 founding release](https://buy.polar.sh/polar_cl_l75PUPW2ts31TKEugQix0Rcjw8faLyc5ATewD4BsXpE)
 - One organization, internal use, all 0.x updates
 
@@ -40,6 +41,23 @@ specific invariants and publishes an inspectable sample report before purchase.
 
 AgentSafe is not a security audit or certification. Dynamic approval callbacks
 and other tool types are outside the founding release's measured scope.
+
+[`YY Workload Receipt`](https://github.com/yycore/yy-workload-receipt) is an
+Apache-2.0 Python package for turning observed AI usage metadata into a
+deterministic, content-free receipt. It writes a canonical JSON summary, a
+Markdown report, and a SHA-256 manifest, keeps unobserved measurements explicit
+as evidence gaps, and verifies the artifacts later.
+
+```text
+python -m pip install yy-workload-receipt
+```
+
+- [Product page and synthetic sample](https://www.yycore.ai/projects/workload-receipt)
+- [PyPI package](https://pypi.org/project/yy-workload-receipt/)
+- [Source and v0.1.0 release](https://github.com/yycore/yy-workload-receipt)
+
+Workload Receipt is not a billing system, cost estimator, security scanner,
+compliance certification, or hardware recommendation.
 
 [`yy-corpus-evidence`](https://github.com/yycore/yy-corpus-evidence) is YY's
 first open-source release. It creates deterministic, local corpus manifests,
