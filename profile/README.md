@@ -69,8 +69,8 @@ python -m pip install yy-workload-receipt
 Workload Receipt is not a billing system, cost estimator, security scanner,
 compliance certification, or hardware recommendation.
 
-[`yy-corpus-evidence`](https://github.com/yycore/yy-corpus-evidence) is YY's
-first open-source release. It creates deterministic, local corpus manifests,
+[`Corpus Evidence`](https://github.com/yycore/yy-corpus-evidence) is YY's first
+open-source release. It creates deterministic, local corpus manifests,
 records optional provenance declarations, and checks the result for drift
 later.
 
@@ -78,7 +78,7 @@ later.
 python -m pip install yy-corpus-evidence
 ```
 
-- [Project page](https://yycore.ai/projects/corpus-evidence)
+- [Project page](https://www.yycore.ai/projects/corpus-evidence)
 - [PyPI package](https://pypi.org/project/yy-corpus-evidence/)
 - [Source and documentation](https://github.com/yycore/yy-corpus-evidence)
 
