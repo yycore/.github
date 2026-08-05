@@ -4,13 +4,38 @@
 
 # YY
 
-YY is an independent AI product company. We build and sell inspectable
-developer tools and agent-first software, and we release open-source utilities
-that make technical evidence easier to verify.
+YY is an independent AI forensic data analysis and research laboratory. We
+build inspectable software and run fixed-scope services for datasets,
+operational records, technical claims, and evidence-bearing workflows.
 
 Our work starts from the actual constraints: the data, the machine, the
 failure modes, and what can be measured. We publish concrete artifacts rather
-than speculative capability claims.
+than speculative capability claims, and we state where each conclusion stops.
+
+[Open the public Proof Desk](https://www.yycore.ai/proof) to inspect
+reproducible case files and clearly labeled fictional or synthetic service
+demonstrations before buying software or hiring YY.
+
+## Paid services
+
+YY currently offers two fixed-scope paid pilots for operations and quality
+teams. Both require a fit check before payment; neither is broad consulting,
+legal advice, or a compliance opinion.
+
+- [`Calibration Register Cleanup`](https://www.yycore.ai/services/calibration-register-cleanup)
+  is a $149 pilot for one existing gage list and up to 25 supported
+  calibration-certificate PDFs. YY returns a source-linked register and review
+  queue within three business days after accepted intake and payment.
+- [`Association Minutes`](https://www.yycore.ai/services/association-minutes)
+  is a $19 pilot for one authorized recording up to 60 minutes plus the meeting
+  materials. YY returns a recording-checked DOCX and PDF draft by the end of
+  the second business day after accepted intake and payment.
+
+Looking for [`Dataset Preflight ($39)`](https://www.yycore.ai/projects/dataset-preflight),
+YY's automated dataset-integrity check? It is a product, not a service; see
+Paid products below or go straight to the listing.
+
+[Review exact scope, public samples, and fit-check instructions](https://www.yycore.ai/services).
 
 ## Paid products
 
